@@ -74,7 +74,6 @@
   },
   "license": "MIT",
   "name": "wch-spa-sample-components",
-  "private": true,
   "scripts": {
     "build": "ng build --prod",
     "build:packagr": "rimraf dist && ng-packagr -p package.json",
@@ -105,5 +104,8 @@
     "start": "ng serve",
     "test": "ng test"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  }
 }

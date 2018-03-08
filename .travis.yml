@@ -1,9 +1,20 @@
 language: node_js
 sudo: false
 node_js:
-  - "8"
+- '8'
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 script:
-  - npm run build:packagr
+- npm run build:packagr
+notifications:
+  slack: ibmgermanylab:l7OAbtjgAZzOgCiKh3WeDxPy
+deploy:
+  provider: npm
+  email: carsten.leue+components@gmail.com
+  tag: next
+  api_key:
+    secure: frgjPxtOHRIZXh6gd/MgJM/bjWrlfl9igFe92YS1cr0b0xG2pQ6vFfIRNMkClLmiGUJWnNCO+y833mIMxEjbZgMc658kf0Ou7h47QmLfmDpb8hWd+tEQ7BeRdNaVdTn8mitGvDYaMQPi6FzvO9zhrCIQ2pGflvE9KDiBUFeCC3UlG4kiXuo7hOZ6yNBCxZWRJ5rwaY465DfUcP45/2SX3pOGoH5lqg5wCURTqkpbkPNtEI6GrNFcdttwgSONhuWOxR3gRY//wG9tSn9WzVyjBBJ9NwYopu0Mp/huGfxABx1bFutRmjdN9UxoyCOtzWl64NPebeXBzTP1hrcAVFnkS9DBDX3pSUKHKAkL8UiJp6m/6gDSGhIztXcuaRoIQ1NevQwjHR9xCCfL7sv6n1e+8FcV1CHAY8AZ943hYI+CMvzIIQoT3FemvoU5LQfsa97SYlbMeJrUpKhwXu3LAIvHGkztr/SsaKF3BVyPqr7QkYI57DzuIlmseHOddsLezyHbKV7YuzhSafL8TNIJ1IcHa2MM5fQYYiET2mAyHwT3OVH8pDCCaLT7ftgv16QdWqoI0ZskiUmP8V6BCZdBf9IPbyAgNF8pKPmdXJTabUT9cqp0kBNepyAXCZvHlV2Ns8QpStblcxWNXI86DWLsIknTSnf8PciVk1VdK1XjyTSmyQs=
+  on:
+    tags: true
+    repo: CarstenLeue/wch-spa-sample-components
