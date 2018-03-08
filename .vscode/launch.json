@@ -1,0 +1,1 @@
+{"configurations":[{"name":"Launch localhost","request":"launch","type":"chrome","url":"http://localhost:4200/#/home/","webRoot":"${workspaceFolder}/assets"},{"name":"Launch on WCH","request":"launch","type":"chrome","url":"https://my4.digitalexperience.ibm.com/f0db38e4-ac94-42bb-9d71-cc564182ea41/index.html"}],"version":"0.2.0"}

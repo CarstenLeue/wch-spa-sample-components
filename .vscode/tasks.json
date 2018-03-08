@@ -1,0 +1,1 @@
+{"tasks":[{"group":{"isDefault":true,"kind":"build"},"label":"wch: Production Build","problemMatcher":["$tsc"],"script":"build:production","type":"npm"},{"group":"build","label":"wch: Development Build","problemMatcher":["$tsc"],"script":"build:development","type":"npm"},{"label":"wch: Deploy","problemMatcher":["$tsc"],"script":"deploy","type":"npm"}],"version":"2.0.0"}

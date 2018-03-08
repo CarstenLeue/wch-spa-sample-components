@@ -1,0 +1,12 @@
+{
+  "id": "standard-page-layout",
+  "rev": "1-0cdc3699db7e417e16c725cd59b14dd7",
+  "name": "Hero",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/standard-page-hero_220.svg"
+  },
+  "template": "standard-page-layout",
+  "templateType": "angular"
+}

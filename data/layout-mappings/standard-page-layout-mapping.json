@@ -1,0 +1,27 @@
+{
+  "id": "standard-page-layout-mapping",
+  "rev": "1-b2dee7f051658a7589c1ddb9789b36d7",
+  "name": "standardPageLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "standard-page-layout"
+      },
+      "layouts": [
+        {
+          "id": "standard-page-layout"
+        },
+        {
+          "id": "standard-page-hero-2-blocks"
+        },
+        {
+          "id": "standard-page-hero-4-blocks"
+        }
+      ]
+    }
+  ]
+}
