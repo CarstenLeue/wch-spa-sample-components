@@ -21,10 +21,10 @@
     "@angular/core": "^5.2.3",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19",
-    "ibm-wch-sdk-ng": "^5.0.130"
+    "ibm-wch-sdk-ng": "^5.0.108"
   },
   "dependencies": {
-    "ibm-wch-sdk-api": "^5.0.130"
+    "ibm-wch-sdk-api": "^5.0.108"
   },
   "devDependencies": {
     "@angular/animations": "^5.2.0",
@@ -37,7 +37,7 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
-    "ibm-wch-sdk-ng": ">= 5.0.0",
+    "ibm-wch-sdk-ng": "^5.0.108",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19",
     "tsickle": "^0.27.2",
