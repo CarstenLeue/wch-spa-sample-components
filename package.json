@@ -26,6 +26,7 @@
   "dependencies": {
     "ibm-wch-sdk-api": "^5.0.108"
   },
+  "repository": "github:CarstenLeue/wch-spa-sample-components",
   "devDependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
