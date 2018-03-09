@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 
 import { LAYOUTS } from './../layouts';
+import { WchNgComponentsModule } from 'ibm-wch-sdk-ng';
 
 @NgModule({
-    declarations: [...LAYOUTS],
     imports: [
+        WchNgComponentsModule
     ],
+    declarations: [...LAYOUTS],
     providers: [],
+    exports: [...LAYOUTS],
     entryComponents: [...LAYOUTS],
     bootstrap: []
 })
